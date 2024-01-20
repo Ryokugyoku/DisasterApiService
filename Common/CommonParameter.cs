@@ -7,10 +7,14 @@ public static class CommonParameter{
     /// </summary>
     public static String EmergencyShelterCsvUrl {get;set;}= "https://www.gsi.go.jp/common/000253846.zip";
 
-    public static String DiscordToken = "MTE5NTUyNDYyODU3NjIyNzQ0OA.GL1hfL.ELJSSeubIfvBmmh1PwY8UEgz2bndjOPzG1U140";
+    /// <summary>
+    /// 任意のDiscordトークンを設定する
+    /// </summary>
+    public static String DiscordToken {get;}= "MTE5NTUyNDYyODU3NjIyNzQ0OA.Gphu_K.4rxKFp8pyoEIDyZpMj9z_E4ZUuuzoXIqRn6pjE";
 
     /// <summary>
-    ///  DiscordのチャットID
+    ///  DiscordのチャットID　
+    ///  メッセージを送信したいチャットIDを設定する
     /// </summary>
-    public static String TextId = "1195535329776635976";
+    public static String TextId {get;}= "1195535329776635976";
 }
