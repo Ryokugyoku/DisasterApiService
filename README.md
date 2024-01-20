@@ -4,8 +4,8 @@
  任意のエディタ<br>
 
 # 起動前に必要な設定
-　マイグレーション作業(下記のコードを実行)　
-　``` dotnet ef database update InitialCreate ```
+　マイグレーション作業(下記のコードを実行)<br>
+　``` dotnet ef database update InitialCreate ```<br>
   DiscordBotの作成・トークンの設定（CommonParameter.cs）<br>
   Discordチャットの送信先チャットIDの設定<br>
 
