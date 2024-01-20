@@ -1,6 +1,6 @@
 # 必要な環境
  DOTNET8<br>
- Docker Desktop<br>　　
+ Docker Desktop<br>
  任意のエディタ<br>
 
 # 起動前に必要な設定
