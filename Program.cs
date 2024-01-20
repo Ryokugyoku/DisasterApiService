@@ -68,10 +68,9 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 RecurringJob.RemoveIfExists("daily-job");
-
 // 一日に一回実行する処理
 RecurringJob.AddOrUpdate<OneDateOnceExecution>("daily-job", job => job.ExecuteMethods(), Cron.Daily);
-//BackgroundJob.Enqueue<OneDateOnceExecution>(job => job.ExecuteMethods());
+
 
 app.Run();
 
